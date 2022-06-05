@@ -1,0 +1,31 @@
+package com.mosh;
+
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+//        Math class
+//        round(): Takes two types of arguments - takes float returns int, takes double returns long
+        int result = Math.round(4.4F);
+        System.out.println(result);
+//        ceil(): ceil of a no is larger or equal to the no. Returns a double
+        int result2 = (int)Math.ceil(1.1F);
+        System.out.println(result2);
+//        floor(): floor of a no is smaller or equal to the no. Returns a double.
+        int result3 = (int)Math.floor(1.1F);
+        System.out.println(result3);
+//        max(): returns greater of two values.
+        int result4 = Math.max(1, 5);
+        System.out.println(result4);
+//        random():
+        double result5 = Math.random() * 100;
+        System.out.println(result5);
+        double result6 = Math.round(Math.random() * 100);
+        System.out.println(result6);
+        int result7 = (int) Math.round(Math.random() * 100);
+        System.out.println(result7);
+        int result8 = (int) Math.random() * 100; //result is always zero bcoz we apply casting to what random func returns. This func always returns 0.something and anything multiplied with 0 is 0.
+        System.out.println(result8);
+//
+    }
+}
